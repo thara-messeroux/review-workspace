@@ -1,0 +1,5 @@
+import{j as i}from"./jsx-runtime-D_zvdyIk.js";function t({as:e="div",layout:a="auto",gap:l=4,children:r}){return i.jsx(e,{className:`ds-grid ds-grid--${a} ds-stack--gap-${l}`,children:r})}t.__docgenInfo={description:"",methods:[],displayName:"Grid",props:{as:{required:!1,tsType:{name:"ElementType"},description:"",defaultValue:{value:"'div'",computed:!1}},layout:{required:!1,tsType:{name:"union",raw:`| 'auto'
+/** A fixed sidebar beside the work. The review screen. */
+| 'sidebar'
+/** Two equal columns, for comparing one thing against another. */
+| 'pair'`,elements:[{name:"literal",value:"'auto'"},{name:"literal",value:"'sidebar'"},{name:"literal",value:"'pair'"}]},description:"",defaultValue:{value:"'auto'",computed:!1}},gap:{required:!1,tsType:{name:"union",raw:"0 | 1 | 2 | 3 | 4 | 5 | 6 | 8",elements:[{name:"literal",value:"0"},{name:"literal",value:"1"},{name:"literal",value:"2"},{name:"literal",value:"3"},{name:"literal",value:"4"},{name:"literal",value:"5"},{name:"literal",value:"6"},{name:"literal",value:"8"}]},description:"",defaultValue:{value:"4",computed:!1}},children:{required:!0,tsType:{name:"ReactNode"},description:""}}};export{t as G};

@@ -1,0 +1,1 @@
+.ds-toolbar{display:flex;flex-wrap:wrap;align-items:center;gap:var(--space-2);min-inline-size:0}.ds-toolbar--bar{padding-block:var(--space-2);padding-inline:var(--layout-gutter);background-color:var(--color-surface);border-block-end:var(--border-width-thin) solid var(--color-outline-brand)}.ds-toolbar--inline{padding:var(--space-0)}

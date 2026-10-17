@@ -1,0 +1,1 @@
+.ds-grid{display:grid}.ds-grid>*{min-inline-size:0}.ds-grid--auto{grid-template-columns:repeat(auto-fit,minmax(min(100%,16rem),1fr))}.ds-grid--sidebar,.ds-grid--pair{grid-template-columns:1fr}@media(min-width:64rem){.ds-grid--sidebar{grid-template-columns:20rem 1fr;align-items:start}}@media(min-width:48rem){.ds-grid--pair{grid-template-columns:repeat(2,minmax(0,1fr))}}
