@@ -1,0 +1,12 @@
+import{j as t}from"./jsx-runtime-D_zvdyIk.js";import{I as u}from"./Icon-CDXFQQnW.js";function c({icon:o,label:s,variant:i="standard",size:e="md",pressed:a,loading:n=!1,disabled:r,...l}){const d=["ds-icon-button",`ds-icon-button--${i}`,`ds-icon-button--${e}`,n?"ds-icon-button--loading":""].filter(Boolean).join(" ");return t.jsx("button",{type:"button",className:d,"aria-label":s,"aria-pressed":a,"aria-busy":n||void 0,disabled:r,...l,children:t.jsx(u,{name:o,size:e,filled:a===!0})})}c.__docgenInfo={description:`An icon on its own, as a real button.
+
+\`Icon\` is presentational and cannot be clicked. This is the interactive
+one, and it exists because an icon wired up by hand tends to arrive as a
+\`div\` with an \`onClick\`: no focus ring, no keyboard, no name, and a hit
+target the size of the glyph.
+
+Every state is here rather than added per screen: hover, focus, active,
+disabled, pressed and loading. On a coarse pointer the target grows to
+\`--tap-target-min\` without the glyph changing size.`,methods:[],displayName:"IconButton",props:{icon:{required:!0,tsType:{name:"unknown"},description:""},label:{required:!0,tsType:{name:"string"},description:`What the button does, in words. Required and not optional: an icon-only
+control with no name is a button a screen reader announces as "button".`},variant:{required:!1,tsType:{name:"union",raw:"'standard' | 'tonal' | 'outlined'",elements:[{name:"literal",value:"'standard'"},{name:"literal",value:"'tonal'"},{name:"literal",value:"'outlined'"}]},description:"",defaultValue:{value:"'standard'",computed:!1}},size:{required:!1,tsType:{name:"union",raw:"'sm' | 'md' | 'lg'",elements:[{name:"literal",value:"'sm'"},{name:"literal",value:"'md'"},{name:"literal",value:"'lg'"}]},description:"",defaultValue:{value:"'md'",computed:!1}},pressed:{required:!1,tsType:{name:"boolean"},description:"For a control that is on or off, such as a disclosure. Sets\n`aria-pressed`, and fills the glyph so the state is a shape as well as a\ncolour."},loading:{required:!1,tsType:{name:"boolean"},description:"Waiting on something. Stays focusable so the keyboard position holds.",defaultValue:{value:"false",computed:!1}},ref:{required:!1,tsType:{name:"Ref",elements:[{name:"HTMLButtonElement"}],raw:"Ref<HTMLButtonElement>"},description:`Needed by anything that has to move focus back here, such as a search
+field collapsing on Escape. A plain prop in React 19.`}},composes:["Omit"]};export{c as I};
