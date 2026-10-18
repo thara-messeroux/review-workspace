@@ -1,0 +1,11 @@
+import{j as s}from"./jsx-runtime-D_zvdyIk.js";import{T as j,S as f,D as T,P as y,C as k,a as w}from"./blocks-DxC5wVx6.js";import{C as U,c as b}from"./index-BzcST_NV.js";import{S as x}from"./SaveToast-DIkQhAYn.js";import{t as o,p as r}from"./states-B-b6nTVw.js";import"./preload-helper-Dp1pzeXC.js";import"./iframe-CABGp69k.js";import"./index-i-KBDjhx.js";import"./DocPage-Cvry0G_4.js";import"./Icon-Zo4Ws1sP.js";import"./workspaceTheme-Cn_UgpYr.js";const O={title:"Workspace/SaveToast",component:x,tags:["autodocs"],parameters:{docs:{page:()=>s.jsxs(s.Fragment,{children:[s.jsx(j,{}),s.jsx(f,{}),s.jsx(T,{}),s.jsx(y,{}),s.jsx(k,{}),s.jsx(U,{doc:b.SaveToast,headingLevel:2}),s.jsx(w,{})]}),description:{component:["The confirmation after a save. It says exactly what changed and offers Undo.","","**Accessibility**","","A status region, so a screen reader hears the message without focus moving. Undo and Dismiss are native buttons at least 48 px tall."].join(`
+`)}}}},a={args:r(o,"with-undo")},e={args:r(o,"without-undo")},t={args:r(o,"with-undo"),render:()=>s.jsx("div",{className:"sb-stack",children:o.map(i=>s.jsx(x,{...i.props},i.id))})};var n,c,p;a.parameters={...a.parameters,docs:{...(n=a.parameters)==null?void 0:n.docs,source:{originalSource:`{
+  args: pick(saveToastStates, 'with-undo')
+}`,...(p=(c=a.parameters)==null?void 0:c.docs)==null?void 0:p.source}}};var m,d,u;e.parameters={...e.parameters,docs:{...(m=e.parameters)==null?void 0:m.docs,source:{originalSource:`{
+  args: pick(saveToastStates, 'without-undo')
+}`,...(u=(d=e.parameters)==null?void 0:d.docs)==null?void 0:u.source}}};var l,h,S,g,v;t.parameters={...t.parameters,docs:{...(l=t.parameters)==null?void 0:l.docs,source:{originalSource:`{
+  args: pick(saveToastStates, 'with-undo'),
+  render: () => <div className="sb-stack">
+      {saveToastStates.map(state => <SaveToast key={state.id} {...state.props} />)}
+    </div>
+}`,...(S=(h=t.parameters)==null?void 0:h.docs)==null?void 0:S.source},description:{story:"Every state, from the same registry /system reads.",...(v=(g=t.parameters)==null?void 0:g.docs)==null?void 0:v.description}}};const R=["WithUndo","WithoutUndo","AllStates"];export{t as AllStates,a as WithUndo,e as WithoutUndo,R as __namedExportsOrder,O as default};
